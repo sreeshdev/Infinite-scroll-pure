@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Zoho Interview Task</title>
+</head>
+
+<body>
+    <nav class="nav-bar">
+        <input id="myInput" class="search-box" type="text" placeholder="Search" value=""
+            onkeyup="handleSearchChange()">
+        <span class="toggle-button">
+            <span id="viewType"><svg class="toggle-icon" id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 382 382"><path d="M226.29,65H79.15A14.19,14.19,0,0,0,65,79.15V226.29a14.19,14.19,0,0,0,14.15,14.15H226.29a14.19,14.19,0,0,0,14.15-14.15V79.15A14.19,14.19,0,0,0,226.29,65ZM212.14,212.14H93.3V93.3H212.14Z" transform="translate(-65 -65)"/><path d="M432.85,65H285.71a14.19,14.19,0,0,0-14.15,14.15V226.29a14.19,14.19,0,0,0,14.15,14.15H432.85A14.19,14.19,0,0,0,447,226.29V79.15A14.19,14.19,0,0,0,432.85,65ZM418.7,212.14H299.86V93.3H418.7Z" transform="translate(-65 -65)"/><path d="M226.29,271.56H79.15A14.19,14.19,0,0,0,65,285.71V432.85A14.19,14.19,0,0,0,79.15,447H226.29a14.19,14.19,0,0,0,14.15-14.15V285.71A14.19,14.19,0,0,0,226.29,271.56ZM212.14,418.7H93.3V299.86H212.14Z" transform="translate(-65 -65)"/><path d="M432.85,271.56H285.71a14.19,14.19,0,0,0-14.15,14.15V432.85A14.19,14.19,0,0,0,285.71,447H432.85A14.19,14.19,0,0,0,447,432.85V285.71A14.19,14.19,0,0,0,432.85,271.56ZM418.7,418.7H299.86V299.86H418.7Z" transform="translate(-65 -65)"/></svg></span>
+            <label class="switch">
+                <input type="checkbox" id="toggle" onclick="toggleAction()">
+                <span class="slider round"></span>
+            </label>
+        </span>
+    </nav>
+    <div id="main" class="grid"></div>
+</body>
+<script src="script.js"></script>
+
+</html>
